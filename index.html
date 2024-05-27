@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Jamie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo text-center my-3">
+            <img src="logo.png" alt="Logo" class="img-fluid">
+            <div class="chatbox-title text-left">ChatBox</div>
+        </div>
+        <div class="chatbox">
+            <div class="chatbox-header">
+                <img src="profile.png" alt="Jamie" class="profile-img">
+                <span class="profile-name">Jamie</span>
+            </div>
+            <div class="messages" id="messages"></div>
+            <div class="input-group">
+                <input type="text" id="userInput" class="form-control" placeholder="Type a message...">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" id="sendBtn">
+                        <img src="send.png"> Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class ="footer">
+        <div class="container">
+            <p>&copy; 2023 Copyrights. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
